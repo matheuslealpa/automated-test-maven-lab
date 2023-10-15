@@ -12,6 +12,6 @@ public class SimpleMathTestCase {
         Double actual = simpleMath.sum(6.2D, 2D);
         double expected = 8.2d;
 
-        assertEquals(expected, actual);
+        assertEquals(expected, actual, "O teste não produziu o resultado esperado.");
     }
 }
